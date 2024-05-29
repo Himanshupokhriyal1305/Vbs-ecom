@@ -1,0 +1,285 @@
+.allin {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+    
+
+}
+.divider-line {
+    flex-grow: 0;
+    height: 1px;
+    background-color: #000;
+}
+.bore{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 1px solid indigo;
+    box-shadow: 1px 7px 10px -2px;
+    color:#7105D2;
+    ;
+}
+.shaya{
+    box-shadow: 1px 7px 10px -2px;
+}
+
+@media  screen and (max-width: 991px) {
+  .ten {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.sapce1{
+  gap: 27px;
+}
+@media  screen and (max-width: 1075px) {
+  .sapce1 {
+    gap: 15px;
+  }
+}
+  
+.avsy{
+  background-image: url("av.jpeg");
+  width: 500px;
+  height: 500px;
+}
+.icons{
+  
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #98BCFF
+
+}
+.wide{
+  width: 92%;
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 100%;
+  padding: 20px;
+}
+.wid{
+  width: 96%;
+  margin-left: 10px;
+  margin-right: 0px;
+  height: 100%;
+  padding: 20px;
+}
+.imgr{
+  width: -webkit-fill-available;
+  height:-webkit-fill-available;  
+
+  
+}
+.thrid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.bears{
+  height: 90%;
+}
+  
+
+ 
+  @media  screen and (max-width: 765px) {
+    .towon {
+      height: 210px !important;
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+ 
+    }
+  }
+  @media  screen and (max-width: 765px) {
+    .towoni {
+      
+      display: flex;
+      justify-content: center !important;
+      align-items: center;
+ 
+    }
+  }
+  @media  screen and (max-width: 765px) {
+    .towone {
+      font-size: 12px;
+ 
+    }
+  }
+  @media  screen and (max-width: 575px) {
+    .breath {
+   max-width: 30%;
+    }
+  }
+  @media  screen and (max-width: 575px) {
+    .lemnght {
+      width: 80%;
+    }
+  }
+  .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    color: white;
+  }
+  .card-img-overlay h1 {
+    font-family: auto;
+    font-size: 3rem;
+  }
+  .card-img-overlay p {
+    font-weight: 600;
+    font-family: cursive;
+  }
+  .hii{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  li{
+    text-decoration: none;
+    list-style: none;
+ 
+  }
+  .imagerbackgroud{
+    background: url("av.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
+  .popo{
+    position: relative;
+    top: -4rem;
+  }
+  .zblack{
+z-index: 1;
+
+  }
+  .gappe{
+    gap: 18px;
+  }
+  @media  screen and (max-width: 991px) {
+    .gappe {
+      gap: 0px;
+     
+
+      
+    }
+    .gappee {
+  
+      margin-left: 0px !important;
+     
+
+      
+    }
+    .allaresame {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  .backs{ 
+    background: url("Rectangle\ 4.png");
+    height: 78vh;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+  }
+  .backss{ 
+    background: url("Rectangle\ 8.png");
+    height: fit-content !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+  }
+  .allinone{
+    height: 200px !important;
+  }
+
+  
+  .card {
+    position: relative;
+    color: white;
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+  .fontsier{
+    font-size: smaller;
+    text-shadow: 2px 1px 5px;
+  }
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(91, 21, 239, 0.5), rgba(91, 21, 239, 0.5));
+    padding: 20px;
+  }
+  .hii {
+    display: flex;
+    align-items: center;
+  }
+  .add {
+    color: white;
+  }
+  @media  screen and (max-width: 767px) {
+    .towonelast {
+      object-fit: contain;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+    }
+  }
+  @media  screen and (max-width: 767px) {
+    .baselast {
+     
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+    }
+  }
+  .centerer{
+    display: flex;
+    justify-content: center;
+  }
+  .nav-link :hover {
+
+border-bottom: 2px solid red;
+text-shadow: 5px 5px 5px rgb(226, 10, 3);
+
+
+  }
+.nored:hover figcaption{
+    
+background:linear-gradient(
+   to top
+   rgba(0, 0, 0, 0.9) 0%,
+   rgba(0, 0, 0, 0.9) 100%,
+
+
+);
+  }
+  .boy:hover{
+    position: relative;
+    /* font-size: 6rem; */
+    color: #0e3742;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008) !important;
+    outline: none;
+    animation: animate 5s linear infinite;
+  }
