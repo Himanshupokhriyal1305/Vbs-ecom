@@ -7,3 +7,9 @@
 
 
   }
+
+  .lines{
+    width: 20%;
+    height: 0.2rem !important;
+    color: #FFFFFF;
+  }
