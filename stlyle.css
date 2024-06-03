@@ -172,7 +172,8 @@ li {
 
 .popo {
   position: relative;
-  top: -4rem;
+  top: -4rem; /* Initial state */
+  transition: top 0.3s ease;
 }
 
 .zblack {
