@@ -250,7 +250,7 @@ li {
   text-shadow: 2px 1px 5px;
 }
 
-.card-img-overlay {
+.tla {
   position: absolute;
   top: 0;
   left: 0;
@@ -296,7 +296,15 @@ margin-top: 10px;
 
   }
 }
-
+ @media screen  and (max-width:991px){
+  .leaster{
+    margin-left: 107px;
+  }
+  .leasters{
+  width: 92%;
+  }
+  
+ }
 
 .jio {
   font-size: 40px;
