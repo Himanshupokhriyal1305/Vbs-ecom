@@ -16,8 +16,8 @@
   height: 56px;
   width: 56px;
   border-radius: 50%;
-  border: 1px solid indigo;
-  box-shadow: 1px 7px 10px -2px;
+  border: 1px solid #8B93FF;
+
   color: #7105D2;
   ;
 }
@@ -48,6 +48,7 @@
   width: 500px;
   height: 500px;
 }
+.ipo
 
 .icons {
 
@@ -90,6 +91,7 @@
 
 .bears {
   height: 90%;
+  width: 32vh;
 }
 
 
@@ -134,7 +136,7 @@
 }
 
 .card-img-overlay {
-  background: rgba(0, 0, 0, 0.5);
+
   /* Dark overlay */
   color: white;
 }
@@ -259,7 +261,7 @@ li {
   height: 100%;
   display: flex;
   align-items: center;
-  background: linear-gradient(0deg, rgba(91, 21, 239, 0.5), rgba(91, 21, 239, 0.5));
+
   padding: 20px;
 }
 
@@ -306,6 +308,14 @@ margin-top: 10px;
   }
   
  }
+ .baselast {
+  width: 37vh
+ 
+
+ }
+ .iop{
+  width: 111%;
+ }
 
 .jio {
   font-size: 40px;
@@ -318,7 +328,7 @@ margin-top: 10px;
 
 .oij {
   position: relative;
-  top: 26px;
+  top: 23px;
   left: -25px;
 
 }
