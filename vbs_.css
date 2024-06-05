@@ -1,15 +1,17 @@
-.backs{ 
-    background: url("Rectangle\ 4.png");
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+.about-us-line {
+  position: relative;
+  padding-left: 20px;  /* Space for the 'o' */
+  padding-right: 20px; /* Space for the 's' */
+}
 
+.about-us-line::before {
+  content: 'o';
+  position: absolute;
+  left: 0;
+}
 
-  }
-
-  .lines{
-    width: 20%;
-    height: 0.2rem !important;
-    color: #FFFFFF;
-  }
+.about-us-line::after {
+  content: 's';
+  position: absolute;
+  right: 0;
+}

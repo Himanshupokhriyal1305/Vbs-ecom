@@ -33,6 +33,82 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .laststylefirst {
+    font-size: 34px !important;
+    font-weight: 400 !important;
+    font-family: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: -34px !important;
+  }
+
+}
+@media screen and (max-width: 410px) {
+
+  .laststyleseconds {
+   
+    font-size: 28px !important;
+  }
+  .laststylesecondss {
+   
+    font-size: 14px !important;
+    margin-bottom:36px !important ;
+  }
+
+}
+@media screen and (max-width: 424px) {
+
+  .laststyleseconds {
+   
+    font-size: 28px !important;
+  }
+  .laststylesecondss {
+   
+    font-size: 14px !important;
+    margin-bottom:36px !important ;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .laststylesecond {
+   
+    font-size: 40px !important;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .laststylethrid {
+    font-size: 16px !important;
+    margin-left: 0px !important;
+    font-weight: 100 !important;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+  .laststylefour {
+    height: 39px !important;
+    width: 138px !important;
+ 
+  }
+}
+@media screen and (max-width: 424px) {
+
+
+  .laststylefour {
+    height: 39px !important;
+    width: 138px !important;
+    margin-top: -55px;
+  }
+}
+
 .sapce1 {
   gap: 27px;
 }
@@ -48,9 +124,8 @@
   width: 500px;
   height: 500px;
 }
-.ipo
 
-.icons {
+.ipo .icons {
 
   padding: 10px;
   height: 50px;
@@ -174,7 +249,8 @@ li {
 
 .popo {
   position: relative;
-  top: -4rem; /* Initial state */
+  top: -4rem;
+  /* Initial state */
   transition: top 0.3s ease;
 }
 
@@ -292,30 +368,33 @@ li {
     align-items: baseline;
   }
 }
+
 @media screen and (max-width: 767px) {
   .weightlifet {
-font-weight: 100;
-margin-top: 10px;
+    font-weight: 100;
+    margin-top: 10px;
 
   }
 }
- @media screen  and (max-width:991px){
-  .leaster{
+
+@media screen and (max-width:991px) {
+  .leaster {
     margin-left: 107px;
   }
-  .leasters{
-  width: 92%;
-  }
-  
- }
- .baselast {
-  width: 37vh
- 
 
- }
- .iop{
+  .leasters {
+    width: 92%;
+  }
+
+}
+
+.baselast {
+  width: 37vh
+}
+
+.iop {
   width: 111%;
- }
+}
 
 .jio {
   font-size: 40px;
@@ -332,6 +411,7 @@ margin-top: 10px;
   left: -25px;
 
 }
+
 .oiij {
   position: relative;
 
@@ -345,7 +425,8 @@ margin-top: 10px;
   left: -57px;
 
 }
-.kio{
+
+.kio {
   position: relative;
   top: 68px;
   left: -24px;
