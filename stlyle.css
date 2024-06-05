@@ -13,18 +13,16 @@
 }
 
 .bore {
-  height: 56px;
-  width: 56px;
-  border-radius: 50%;
+
   border: 1px solid #8B93FF;
 
-  color: #7105D2;
-  ;
+
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 10px;
 }
 
-.shaya {
-  box-shadow: 1px 7px 10px -2px;
-}
+
 
 @media screen and (max-width: 991px) {
   .ten {
@@ -154,6 +152,12 @@
   width: -webkit-fill-available;
   height: -webkit-fill-available;
 
+
+}
+.bestes:hover {
+ 
+    border: 1px solid #8B93FF !important;
+  
 
 }
 
