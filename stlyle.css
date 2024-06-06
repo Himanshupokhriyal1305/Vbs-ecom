@@ -59,7 +59,7 @@
 
   .laststyleseconds {
    
-    font-size: 28px !important;
+    font-size: 24px !important;
   }
   .laststylesecondss {
    
@@ -81,7 +81,7 @@
 @media screen and (max-width: 600px) {
 
   .laststylethrid {
-    font-size: 16px !important;
+    font-size: 13px !important;
     margin-left: 0px !important;
     font-weight: 100 !important;
   }
@@ -173,15 +173,44 @@
   width: 32vh;
 }
 
+@media screen and (max-width:458px) {
+  .sevenclass{
+    margin-top: 50px !important;
+  }
+  
 
+  
+}
 
 @media screen and (max-width: 765px) {
   .towon {
-    height: 210px !important;
+    height: 181px !important;
     display: flex;
     justify-content: center !important;
     align-items: center;
 
+  }
+  .firstclass{
+    font-size: 28px !important;
+
+  }
+  .secondclass{
+    font-size: 14px !important;
+    margin-top: 0rem !important;
+
+  }
+  .thridclass{
+
+    margin-top: 0rem !important;
+  }
+  .fourclass{
+
+  }
+  .fiveclass{
+    padding-top: 1.5rem !important;
+  }
+  .sixclass{
+    margin-top: 0rem !important;
   }
 }
 
