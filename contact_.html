@@ -20,9 +20,11 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary ">
         <div class="container-fluid zblack">
-          <a class=" gappee navbar-brand ms-4 text-white  " href="#"><img src="small black vbs (2).png" alt="" style="width: 100px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class=" gappee navbar-brand ms-4 text-white  " href="vbsthrid_.html"><img src="small_black_vbs-removebg-preview__1_-removebg-preview.png" alt=""
+              style="width: 100px;"></a>
+          <button class="navbar-toggler" id="toggleButton" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,7 +64,7 @@
 
 
     <div class="popo weightlifetop">
-        <div class="card bg-white text-white ">
+        <div class="card bg-white text-white " style="border-bottom: none;">
             <img src="Rectangle 19.png" class="card-img allinone" class="" alt="...">
             <div class="card-img-overla hii  " style="background-color: none
             ;">
@@ -79,7 +81,7 @@
 
 
 
-    <div class="container">
+    <div class="container" style="position: relative; top: -4rem;">
         <div class="row text-center">
             <div>
                 <h2 class="">Free Consultation
@@ -99,7 +101,7 @@
             <div class="row shadow p-3 mb-5 bg-body rounded" >
                 <div class="col-lg-4 text-center">
                     <div class="d-flex d-flex justify-content-center align-baseline">
-                        <p class="icons me-4"><i class="fa-solid fa-location-dot fs-3 text-white"></i></p>
+                        <p class="icons me-4"><i class="fa-solid fa-location-dot fs-3 "></i></p>
                         <h2 class="mb-0"> Location: </h2>
                     </div>
                     <h5 class=" text-center leaster">A108 Adam Street <br> mNew York, NY
@@ -107,7 +109,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="d-flex d-flex justify-content-center align-baseline">
-                        <p class="icons me-4"><i class="fa-solid fa-envelope fs-3 text-white"></i></p>
+                        <p class="icons me-4"><i class="fa-solid fa-envelope fs-3 "></i></p>
                         <h2 class="mb-0"> Email:</h2>
                     </div>
                     <div class="ms-5">
@@ -119,7 +121,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="d-flex d-flex justify-content-center align-baseline">
-                        <p class="icons me-4"><i class="fa-solid fa-phone text-white fs-3"></i></p>
+                        <p class="icons me-4"><i class="fa-solid fa-phone fs-3"></i></p>
                         <h2 class="mb-0"> Call:</h2>
                     </div>
                     <div class="ps-5">
@@ -211,5 +213,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
 </body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const button = document.getElementById("toggleButton");
+      const popos = document.querySelectorAll(".popo");
+
+      button.addEventListener("click", function () {
+        popos.forEach(popo => {
+          const currentTop = window.getComputedStyle(popo).top;
+          if (currentTop === "0px") {
+            popo.style.top = "-4rem";
+          } else {
+            popo.style.top = "0rem";
+          }
+        });
+      });
+    });
+  </script>
 
 </html>
