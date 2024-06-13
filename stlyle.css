@@ -278,6 +278,11 @@ li {
   list-style: none;
 
 }
+.HLLO{
+  padding: 14px, 24px, 16px, 24px !important;
+  height: 50px;
+  width: 135px;
+}
 
 .imagerbackgroud {
   background: url("av.jpeg");
@@ -289,7 +294,7 @@ li {
 
 .popo {
   position: relative;
-  top: -4rem;
+  
   /* Initial state */
   transition: top 0.3s ease;
 }
@@ -518,38 +523,81 @@ li {
 
 
 }
-#icon-container {
-  display: none;
-  flex-direction: column; /* Flex direction set as per requirement */
+
+
+
+
+.card {
+  width: 14rem;
+  position: relative;
 }
 
-/* Styling the trigger element */
-#hover-area {
-  width: 100px;
-  height: 100px;
-  background-color: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.boy:hover {
+.card-body {
   position: relative;
-  /* font-size: 6rem; */
-  color: #0e3742;
-  text-transform: uppercase;
-  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008) !important;
-  outline: none;
-  animation: animate 5s linear infinite;
 }
-.art:hover{
-opacity: 
-1 !important;
-border-bottom: none;
-border-left: none;
-border-right: none;
-display: flex !important;
-justify-content: space-around !important;
-background-color: rgba(248, 248, 255, 0.267);
+
+.card-body .position-absolute img {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-body .position-absolute img {
+  opacity: 1;
+}
+
+/* Set initial opacity for icons */
+#art-icons img {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effect to change opacity for icons */
+.card:hover #art-icons img {
+  opacity: 1;
+}
+
+/* Border for the <p> tag using ::before pseudo-element */
+#art-icons {
+  position: relative;
+}
+
+#art-icons::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 1px  solid lightgray ; /* Change the color and size as needed */
+  opacity: 0;
   
+  border-bottom: none !important;
+
+  transition: opacity 0.3s ease;
+  border-radius: 6px; /* Optional: Add border radius */
+}
+
+/* Hover effect to show the border */
+.card:hover #art-icons::before {
+  opacity: 1;
+}
+
+/* Center align text on hover */
+.card:hover .card-title, 
+.card:hover .card-title1 {
+  text-align: center !important;
+}
+
+/* Optional: Center text without hover for consistency */
+.card-body .card-title, 
+.card-body .card-title1 {
+  margin: 0;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-title1 {
+  margin-top: 0.5rem;
 }
